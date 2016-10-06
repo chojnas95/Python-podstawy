@@ -1,0 +1,16 @@
+print("Hello scary World")
+print("wpisz swoja ulubiona liczbe")
+x = input()
+x = int(x)
+print("twoja liczba to")
+print (x)
+print ("czy twoja liczba dzieli sie przez dwa????")
+print("___________________________________________")
+
+y = (x%2)
+
+if y == 0:
+    print("TAK!!! jest podzielna przez dwa :D")
+
+else:
+    print("NIE!!! nie jest podzielna przez dwa :/")
